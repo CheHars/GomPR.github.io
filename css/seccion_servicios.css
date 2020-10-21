@@ -1,0 +1,67 @@
+.seccion_servicios{
+background: #fafafa;
+}
+.subtitulo{
+font-size: 42px;
+}
+.copia_seccion{
+color: var(--black2);
+font-size: 22px;
+line-height: 32px;
+margin-bottom: 60px;
+}
+.contenedor_tarjetas{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.tarjeta{
+width: 30%;
+padding: 30px 0;
+overflow: hidden;
+background: linear-gradient(180deg, #1A1B1F 0%, #30353B 100%); 
+border-radius: 10px;
+position: relative;
+text-align: right;
+margin-bottom: 60px;
+box-shadow: 0 0 6px var(--color_shadow);
+}
+.tarjeta_img{
+/*text-align: left;*/
+width: 95%;
+height: 200px;
+object-fit: cover;
+border-radius: 10px 0 0 10px;
+}
+.tarjeta_texto{
+width: 95%;
+margin: 0 auto;
+text-align: left;
+}
+.tarjeta_lista{
+color: var(--gold2);
+font-weight: 700;
+margin: 25px 0 12px;
+font-size: 18px;
+}
+.tarjeta_titulo{
+color: #fff;
+font-size: 40px;
+margin-bottom: 8px;
+}
+.tarjeta_copia{
+color: var(--gray2);
+margin-bottom: 16px;
+}
+.tarjeta_boton{
+display: block;
+background: linear-gradient(180deg, #F7CE90 0%, #F4BD76 100%);
+border-radius: 6px;
+text-decoration: none;
+width: 100%;
+color: var(--black1);
+font-weight: 700;
+text-align: center;
+padding: 12px 0;
+}

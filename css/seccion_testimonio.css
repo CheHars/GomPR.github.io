@@ -1,0 +1,78 @@
+.seccion_testimonios{
+background: #fafafa;
+}
+.testimonio_contenedor{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.testimonio_tarjeta{
+width: 30%;
+height: 500px;
+background: linear-gradient(180deg, #30353B 0%, #1A1B1F 100%);
+border-radius: 10px;
+position: relative;
+margin-bottom: 30px;
+}
+.testimonio_img{
+width: 100%;
+height: 100%;
+border-radius: inherit;
+object-fit: cover;
+object-position: center top;
+}
+.testimonio_copia{
+position: absolute;
+bottom: 20px;
+left: 5%;
+width: 90%;
+background: linear-gradient(180deg, #30353B 0%, #1A1B1F 100%);
+color: #fff;
+margin: 0 auto;
+border-radius: 10px;
+box-shadow: var(--shadow) var(--color_shadow);
+padding: 15px 8px;
+display: flex;
+align-items: center;
+}
+.testimonio_copia_modificar{
+background: none;
+box-shadow: none;
+}
+.testimonio_logo{
+font-size: 40px;
+margin-right: 15px;
+display: inline-block;
+}
+.testimonio_nombre{
+font-size: 24px;
+line-height: 28px;
+}
+.testimonio_cargo{
+color: var(--gray1);
+}
+.testimonio_texto{
+padding: 40px 0;
+width: 90%;
+margin: 0 auto;
+color: #fff;
+text-align: center;
+}
+.google_logo{
+margin-bottom: 20px;
+}
+.testimonio_historia{
+font-size: 21px;
+font-weight: 300px;
+}
+.logo_imagen{
+width: 40px;
+height: 40px;
+object-fit: cover;
+border-radius: 50%;
+object-position: center top;
+}
+.testimonio_info{
+width: 70%;
+}
